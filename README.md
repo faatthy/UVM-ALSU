@@ -93,20 +93,13 @@ processing so a D-FF is expected for each input bit at the design entry.
 </table>
 
 ## UVM Methodology 
-uvm_test
-│
-├── env (extends uvm_env)
-│   │
-│   ├── agent (extends uvm_agent)
-│   │   │
-│   │   ├── sequencer (extends uvm_sequencer)
-│   │   ├── driver (extends uvm_driver)
-│   │   └── monitor (extends uvm_monitor)
-│   │
-│   ├── scoreboard (extends uvm_scoreboard)
-│   ├── coverage (covergroup inside a class or monitor)
-│   └── virtual interface reference
-│
-└── sequence (extends uvm_sequence)
-     └── sequence items / transactions (extends uvm_sequence_item)
 
+```text
+uvm_test
+ └─ env
+     ├─ agent
+     │   ├─ sequencer
+     │   ├─ driver
+     │   └─ monitor
+     ├─ scoreboard
+     └─ coverage collector (inside monitor / separate class)
