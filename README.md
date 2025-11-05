@@ -8,6 +8,7 @@ processing so a D-FF is expected for each input bit at the design entry.
 
 <img width="778" height="681" alt="image" src="https://github.com/user-attachments/assets/a4866445-9b0d-43a9-8dcc-afeff4ecf86c" />
 
+## Pins Description
 <!-- Inputs Table -->
 <table border="1" cellspacing="0" cellpadding="6">
   <tr><th>Input</th><th>Width</th><th>Description</th></tr>
