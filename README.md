@@ -1,3 +1,13 @@
+##  Overview
+This project verifies the functionality of the Arithmetic Logic and Shift Unit (ALSU) using the **Universal Verification Methodology (UVM)**.  
+The ALSU performs arithmetic, logical, and shift/rotate operations on 3-bit input operands **A** and **B** based on a 3-bit opcode.  
+The design includes input bypass options, reduction feature controls, and pipelined output registers.
+
+The main verification objective is to:
+- Ensure correctness of generated outputs for all valid operations.
+- Detect invalid operation conditions.
+- Achieve **100% functional coverage** and high code coverage.
+
 ## ALSU Description 
 ALSU is a logic unit that can perform logical, arithmetic, and shift operations on input ports 
 • Input ports A and B have various operations that can take place depending on the value of 
