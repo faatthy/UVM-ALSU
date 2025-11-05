@@ -1,0 +1,421 @@
+COVERGROUP COVERAGE:
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /coverage_collector_package/coverage_collector/cvr_gp 
+                                                       97.50%        100          -    Uncovered            
+    covered/total bins:                                    94        103          -                      
+    missing/total bins:                                     9        103          -                      
+    % Hit:                                             91.26%        100          -                      
+    type_option.weight=1
+    type_option.goal=100
+    type_option.comment=
+    type_option.strobe=0
+    type_option.merge_instances=auto(0)
+    Coverpoint A_cp                                   100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+    Coverpoint B_cp                                   100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+    Coverpoint ALU_cp                                  85.71%        100          -    Uncovered            
+        covered/total bins:                                 6          7          -                      
+        missing/total bins:                                 1          7          -                      
+        % Hit:                                         85.71%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+    Coverpoint cin_cp                                 100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+    Coverpoint serial_in_cp                           100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+    Coverpoint direction_cp                           100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+    Coverpoint red_B_cp                               100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+    Coverpoint red_A_cp                               100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+    Cross ALU_cross_A_B                               100.00%        100          -    Covered              
+        covered/total bins:                                31         31          -                      
+        missing/total bins:                                 0         31          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+    Cross ALU_cross_cin                               100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+    Cross ALU_cross_serial_in_direction               100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+    Cross ALU_cross                                    84.31%        100          -    Uncovered            
+        covered/total bins:                                43         51          -                      
+        missing/total bins:                                 8         51          -                      
+        % Hit:                                         84.31%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+ Covergroup instance \/coverage_collector_package::coverage_collector::cvr_gp  
+                                                       97.50%        100          -    Uncovered            
+    covered/total bins:                                    94        103          -                      
+    missing/total bins:                                     9        103          -                      
+    % Hit:                                             91.26%        100          -                      
+    option.name=\/coverage_collector_package::coverage_collector::cvr_gp 
+    option.weight=1
+    option.goal=100
+    option.comment=
+    option.at_least=1
+    option.auto_bin_max=64
+    option.cross_num_print_missing=0
+    option.detect_overlap=0
+    option.per_instance=0
+    option.get_inst_coverage=0
+    Coverpoint A_cp                                   100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.auto_bin_max=64
+        option.detect_overlap=0
+        bin data_0                                        199          1          -    Covered              
+        bin data_max                                      175          1          -    Covered              
+        bin Data_walkingones                              334          1          -    Covered              
+        default bin data_default                          300                     -    Occurred             
+    Coverpoint B_cp                                   100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.auto_bin_max=64
+        option.detect_overlap=0
+        bin data_0                                        233          1          -    Covered              
+        bin data_max                                      175          1          -    Covered              
+        bin Data_walkingones                              290          1          -    Covered              
+        default bin data_default                          310                     -    Occurred             
+    Coverpoint ALU_cp                                  85.71%        100          -    Uncovered            
+        covered/total bins:                                 6          7          -                      
+        missing/total bins:                                 1          7          -                      
+        % Hit:                                         85.71%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.auto_bin_max=64
+        option.detect_overlap=0
+        illegal_bin Bins_invalid                           49                     -    Occurred             
+        bin Bins_shift[4]                                 160          1          -    Covered              
+        bin Bins_shift[5]                                 156          1          -    Covered              
+        bin Bins_arith[2]                                 164          1          -    Covered              
+        bin Bins_arith[3]                                 169          1          -    Covered              
+        bin Bins_bitwise[0]                               158          1          -    Covered              
+        bin Bins_bitwise[1]                               152          1          -    Covered              
+        bin Bins_trans                                      0          1          -    ZERO                 
+    Coverpoint cin_cp                                 100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.auto_bin_max=64
+        option.detect_overlap=0
+        bin cin_c_bin                                    1008          1          -    Covered              
+    Coverpoint serial_in_cp                           100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.auto_bin_max=64
+        option.detect_overlap=0
+        bin serial_in_bins                               1008          1          -    Covered              
+    Coverpoint direction_cp                           100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.auto_bin_max=64
+        option.detect_overlap=0
+        bin direction_bins                               1008          1          -    Covered              
+    Coverpoint red_B_cp                               100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.auto_bin_max=64
+        option.detect_overlap=0
+        bin Bins_red_B                                   1008          1          -    Covered              
+    Coverpoint red_A_cp                               100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.auto_bin_max=64
+        option.detect_overlap=0
+        bin Bins_red_A                                   1008          1          -    Covered              
+    Cross ALU_cross_A_B                               100.00%        100          -    Covered              
+        covered/total bins:                                31         31          -                      
+        missing/total bins:                                 0         31          -                      
+        % Hit:                                        100.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.cross_num_print_missing=0
+        Auto, Default and User Defined Bins:
+            bin cross_ALU_a_b_bins                        101          1          -    Covered              
+            bin <Data_walkingones,Data_walkingones,Bins_bitwise[1]> 
+                                                           12          1          -    Covered              
+            bin <Data_walkingones,Data_walkingones,Bins_bitwise[0]> 
+                                                           13          1          -    Covered              
+            bin <Data_walkingones,Data_walkingones,Bins_arith[3]> 
+                                                            6          1          -    Covered              
+            bin <Data_walkingones,Data_walkingones,Bins_shift[5]> 
+                                                           25          1          -    Covered              
+            bin <Data_walkingones,Data_walkingones,Bins_arith[2]> 
+                                                            3          1          -    Covered              
+            bin <Data_walkingones,Data_walkingones,Bins_shift[4]> 
+                                                           25          1          -    Covered              
+            bin <data_max,Data_walkingones,Bins_bitwise[1]> 
+                                                            2          1          -    Covered              
+            bin <data_0,Data_walkingones,Bins_bitwise[1]> 
+                                                           12          1          -    Covered              
+            bin <data_max,Data_walkingones,Bins_bitwise[0]> 
+                                                            3          1          -    Covered              
+            bin <data_0,Data_walkingones,Bins_bitwise[0]> 
+                                                           24          1          -    Covered              
+            bin <data_max,Data_walkingones,Bins_arith[3]> 
+                                                           11          1          -    Covered              
+            bin <data_0,Data_walkingones,Bins_arith[3]> 
+                                                            9          1          -    Covered              
+            bin <data_max,Data_walkingones,Bins_shift[5]> 
+                                                           11          1          -    Covered              
+            bin <data_0,Data_walkingones,Bins_shift[5]> 
+                                                            3          1          -    Covered              
+            bin <data_max,Data_walkingones,Bins_arith[2]> 
+                                                            7          1          -    Covered              
+            bin <data_0,Data_walkingones,Bins_arith[2]> 
+                                                            5          1          -    Covered              
+            bin <data_max,Data_walkingones,Bins_shift[4]> 
+                                                            9          1          -    Covered              
+            bin <data_0,Data_walkingones,Bins_shift[4]> 
+                                                            8          1          -    Covered              
+            bin <Data_walkingones,data_max,Bins_bitwise[1]> 
+                                                            7          1          -    Covered              
+            bin <Data_walkingones,data_0,Bins_bitwise[1]> 
+                                                           30          1          -    Covered              
+            bin <Data_walkingones,data_max,Bins_bitwise[0]> 
+                                                            2          1          -    Covered              
+            bin <Data_walkingones,data_0,Bins_bitwise[0]> 
+                                                           30          1          -    Covered              
+            bin <Data_walkingones,data_max,Bins_arith[3]> 
+                                                            6          1          -    Covered              
+            bin <Data_walkingones,data_0,Bins_arith[3]> 
+                                                            8          1          -    Covered              
+            bin <Data_walkingones,data_max,Bins_shift[5]> 
+                                                            7          1          -    Covered              
+            bin <Data_walkingones,data_0,Bins_shift[5]> 
+                                                            6          1          -    Covered              
+            bin <Data_walkingones,data_max,Bins_arith[2]> 
+                                                            4          1          -    Covered              
+            bin <Data_walkingones,data_0,Bins_arith[2]> 
+                                                            8          1          -    Covered              
+            bin <Data_walkingones,data_max,Bins_shift[4]> 
+                                                            8          1          -    Covered              
+            bin <Data_walkingones,data_0,Bins_shift[4]> 
+                                                            9          1          -    Covered              
+        Illegal and Ignore Bins:
+            ignore_bin ignore_trans_opcode                  0                     -    ZERO                 
+            ignore_bin ignore_cross_ALU_a_b_bins           62                     -    Occurred             
+    Cross ALU_cross_cin                               100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.cross_num_print_missing=0
+        Auto, Default and User Defined Bins:
+            bin cross_ALU_cin_bins                        333          1          -    Covered              
+        Illegal and Ignore Bins:
+            ignore_bin ignore_cross_ALU_cin_bins          626                     -    Occurred             
+    Cross ALU_cross_serial_in_direction               100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.cross_num_print_missing=0
+        Auto, Default and User Defined Bins:
+            bin cross_ALU_serial_in_bins                  160          1          -    Covered              
+            bin cross_ALU_dirextion_bins                  160          1          -    Covered              
+        Illegal and Ignore Bins:
+            ignore_bin ignore_cross_ALU_dirextion_bins 
+                                                          643                     -    Occurred             
+            ignore_bin ignore_cross_ALU_serial_in_bins 
+                                                          799                     -    Occurred             
+    Cross ALU_cross                                    84.31%        100          -    Uncovered            
+        covered/total bins:                                43         51          -                      
+        missing/total bins:                                 8         51          -                      
+        % Hit:                                         84.31%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.cross_num_print_missing=0
+        Auto, Default and User Defined Bins:
+            bin cross_bitwise_redA                         60          1          -    Covered              
+            bin cross_bitwise_redB                         36          1          -    Covered              
+            bin <Data_walkingones,Data_walkingones,Bins_bitwise[1],Bins_red_A,Bins_red_B> 
+                                                           12          1          -    Covered              
+            bin <Data_walkingones,Data_walkingones,Bins_bitwise[0],Bins_red_A,Bins_red_B> 
+                                                           13          1          -    Covered              
+            bin <data_max,Data_walkingones,Bins_bitwise[1],Bins_red_A,Bins_red_B> 
+                                                            2          1          -    Covered              
+            bin <data_max,Data_walkingones,Bins_bitwise[0],Bins_red_A,Bins_red_B> 
+                                                            3          1          -    Covered              
+            bin <Data_walkingones,Data_walkingones,Bins_arith[3],Bins_red_A,Bins_red_B> 
+                                                            6          1          -    Covered              
+            bin <Data_walkingones,Data_walkingones,Bins_shift[5],Bins_red_A,Bins_red_B> 
+                                                           25          1          -    Covered              
+            bin <Data_walkingones,Data_walkingones,Bins_arith[2],Bins_red_A,Bins_red_B> 
+                                                            3          1          -    Covered              
+            bin <Data_walkingones,Data_walkingones,Bins_shift[4],Bins_red_A,Bins_red_B> 
+                                                           25          1          -    Covered              
+            bin <data_max,Data_walkingones,Bins_arith[3],Bins_red_A,Bins_red_B> 
+                                                           11          1          -    Covered              
+            bin <data_max,Data_walkingones,Bins_shift[5],Bins_red_A,Bins_red_B> 
+                                                           11          1          -    Covered              
+            bin <data_max,Data_walkingones,Bins_arith[2],Bins_red_A,Bins_red_B> 
+                                                            7          1          -    Covered              
+            bin <data_max,Data_walkingones,Bins_shift[4],Bins_red_A,Bins_red_B> 
+                                                            9          1          -    Covered              
+            bin <Data_walkingones,data_max,Bins_bitwise[1],Bins_red_A,Bins_red_B> 
+                                                            7          1          -    Covered              
+            bin <Data_walkingones,data_max,Bins_bitwise[0],Bins_red_A,Bins_red_B> 
+                                                            2          1          -    Covered              
+            bin <data_max,data_max,Bins_bitwise[1],Bins_red_A,Bins_red_B> 
+                                                            5          1          -    Covered              
+            bin <data_max,data_max,Bins_bitwise[0],Bins_red_A,Bins_red_B> 
+                                                            4          1          -    Covered              
+            bin <data_0,data_max,Bins_bitwise[1],Bins_red_A,Bins_red_B> 
+                                                            3          1          -    Covered              
+            bin <data_0,data_max,Bins_bitwise[0],Bins_red_A,Bins_red_B> 
+                                                            5          1          -    Covered              
+            bin <Data_walkingones,data_max,Bins_arith[3],Bins_red_A,Bins_red_B> 
+                                                            6          1          -    Covered              
+            bin <Data_walkingones,data_max,Bins_shift[5],Bins_red_A,Bins_red_B> 
+                                                            7          1          -    Covered              
+            bin <Data_walkingones,data_max,Bins_arith[2],Bins_red_A,Bins_red_B> 
+                                                            4          1          -    Covered              
+            bin <Data_walkingones,data_max,Bins_shift[4],Bins_red_A,Bins_red_B> 
+                                                            8          1          -    Covered              
+            bin <data_max,data_max,Bins_arith[3],Bins_red_A,Bins_red_B> 
+                                                            9          1          -    Covered              
+            bin <data_max,data_max,Bins_shift[5],Bins_red_A,Bins_red_B> 
+                                                            4          1          -    Covered              
+            bin <data_max,data_max,Bins_arith[2],Bins_red_A,Bins_red_B> 
+                                                           14          1          -    Covered              
+            bin <data_max,data_max,Bins_shift[4],Bins_red_A,Bins_red_B> 
+                                                            4          1          -    Covered              
+            bin <data_0,data_max,Bins_arith[3],Bins_red_A,Bins_red_B> 
+                                                           14          1          -    Covered              
+            bin <data_0,data_max,Bins_arith[2],Bins_red_A,Bins_red_B> 
+                                                           17          1          -    Covered              
+            bin <data_0,data_max,Bins_shift[4],Bins_red_A,Bins_red_B> 
+                                                            4          1          -    Covered              
+            bin <data_max,data_0,Bins_bitwise[1],Bins_red_A,Bins_red_B> 
+                                                            5          1          -    Covered              
+            bin <data_max,data_0,Bins_bitwise[0],Bins_red_A,Bins_red_B> 
+                                                            1          1          -    Covered              
+            bin <data_0,data_0,Bins_bitwise[1],Bins_red_A,Bins_red_B> 
+                                                            1          1          -    Covered              
+            bin <data_0,data_0,Bins_bitwise[0],Bins_red_A,Bins_red_B> 
+                                                           12          1          -    Covered              
+            bin <data_max,data_0,Bins_arith[3],Bins_red_A,Bins_red_B> 
+                                                           20          1          -    Covered              
+            bin <data_max,data_0,Bins_shift[5],Bins_red_A,Bins_red_B> 
+                                                            4          1          -    Covered              
+            bin <data_max,data_0,Bins_arith[2],Bins_red_A,Bins_red_B> 
+                                                           10          1          -    Covered              
+            bin <data_max,data_0,Bins_shift[4],Bins_red_A,Bins_red_B> 
+                                                            4          1          -    Covered              
+            bin <data_0,data_0,Bins_arith[3],Bins_red_A,Bins_red_B> 
+                                                            9          1          -    Covered              
+            bin <data_0,data_0,Bins_shift[5],Bins_red_A,Bins_red_B> 
+                                                            1          1          -    Covered              
+            bin <data_0,data_0,Bins_arith[2],Bins_red_A,Bins_red_B> 
+                                                            8          1          -    Covered              
+            bin <data_0,data_0,Bins_shift[4],Bins_red_A,Bins_red_B> 
+                                                            5          1          -    Covered              
+            bin <*,*,Bins_trans,*,*>                        0          1          7    ZERO                 
+            bin <data_0,data_max,Bins_shift[5],*,*> 
+                                                            0          1          1    ZERO                 
+        Illegal and Ignore Bins:
+            ignore_bin ignore_bitwise2                     25                     -    Occurred             
+            ignore_bin ignore_bitwise1                     31                     -    Occurred             
+
+TOTAL COVERGROUP COVERAGE: 97.50%  COVERGROUP TYPES: 1

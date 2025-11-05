@@ -1,0 +1,9 @@
+vlib work 
+vlog *v +cover 
+vsim -voptargs=+acc work.top -classdebug -uvmcontrol=all -cover 
+add wave /top/clk  
+add wave /top/alsu_if/* 
+coverage save top.ucdb -onexit 
+run -all 
+#quit -sim 
+#vcover report top.ucdb -all -annotate -details  -output coverage.txt  
